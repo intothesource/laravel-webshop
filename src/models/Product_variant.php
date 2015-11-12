@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Product_variant extends Model {
 
-	use \Dimsav\Translatable\Translatable;
+	use \IntoTheSource\Translatable\Translatable;
 	public $translatedAttributes 	= ['sku','name','description'];
 	
 	protected $table = 'product_variants';
