@@ -1,0 +1,27 @@
+{
+    "name": "intothesource/laravel-webshop",
+    "description": "Webshop",
+    "keywords": ["laravel", "webshop", "products", "the source", "thesource", "in to the source", "intothesource"],
+    "homepage": "https://github.com/intothesource/laravel-users",
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "David Bikanov",
+            "email": "dbikanov@intothesource.com",
+            "homepage": "http://wwww.intothesource.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "intothesource/laravel-translatable" : "5.3.*",
+        "illuminate/html": "^5.0",
+        "illuminate/support": "~5.1",
+        "php" : ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntoTheSource\\Webshop\\": "src"
+        }
+    }
+}
+
